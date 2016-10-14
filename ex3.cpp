@@ -113,7 +113,7 @@ Input comes from cin through the Token_stream called ts.
 //------------------------------------------------------------------------------
 
 #include "stdafx.h"
-#include "F:\学习资料\编程学习\C++程序设计原理与实践\Programming-code\Chapter06\std_lib_facilities.h"
+#include "F:\瀛︿範璧勬枡\缂栫▼瀛︿範\C++绋嬪簭璁捐鍘熺悊涓庡疄璺礬Programming-code\Chapter06\std_lib_facilities.h"
 
 const char number = '8';    // t.kind==number means that t is a number Token
 const char quit = 'q';    // t.kind==quit means that t is a quit Token
@@ -192,6 +192,7 @@ Token Token_stream::get() // read characters from cin and compose a Token
 	case '/':
 	case '%':
 	case '=':
+	case ',':
 		return Token(ch); // let each character represent itself
 	case '.':             // a floating-point literal can start with a dot
 	case '0': case '1': case '2': case '3': case '4':
