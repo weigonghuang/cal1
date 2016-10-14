@@ -121,10 +121,15 @@ const char print = ';';    // t.kind==print means that t is a print Token
 const char name = 'a';    // name token
 const char let = 'L';    // declaration token
 const char con = 'C';    // const declaration token
+const char func_sqrt = 's';
+const char func_pow = 'p';
+
 const string declkey = "let";		// declaration keyword 
 const string constkey = "const";	// const keyword
 const string prompt = "> ";
 const string result = "= "; // used to indicate that what follows is a result
+const string sqrt_key = "sqrt";
+const string pow_key = "pow";
 
 //------------------------------------------------------------------------------
 
